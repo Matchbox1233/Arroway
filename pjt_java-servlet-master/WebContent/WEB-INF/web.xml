@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemalocation="http://xmlns.jcp.org/xml/ns/javaee/index.html">
+	<welcome-file>index.html</welcome-file>
+	<servlet>
+        <servlet-name>LZW Binary Tree WebApp</servlet-name>
+        <servlet-class>servlet.Servlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>LZW Binary Tree WebApp</servlet-name>
+        <url-pattern>/binfa</url-pattern>
+    </servlet-mapping>
+</web-app>
